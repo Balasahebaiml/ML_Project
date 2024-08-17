@@ -7,8 +7,8 @@ from flask import *
 # from sklearn.linear_model import LassoCV
 # from sklearn.linear_model import Lasso
 
-app = Flask(__name__)
-#app=applications
+application = Flask(__name__)
+app=application
 
 
 #import loaas and scalering pickle
